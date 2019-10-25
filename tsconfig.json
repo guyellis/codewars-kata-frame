@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": false,
+    "esModuleInterop": true,
+    "incremental": true,
+    "jsx": "react",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "module": "commonjs",                    
+    "noEmit": false,
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2018"
+  },
+  "include": [
+    "lib/**/*",
+    "app/**/*",
+    "test/**/*",
+    "jest.config.js",
+    "webpack.config.js",
+    "server.ts"
+  ]
+}
